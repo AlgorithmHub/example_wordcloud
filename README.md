@@ -12,8 +12,8 @@ install.packages('wordcloud')
   f: "source('main.R')",
   inputs: {
     "txt": "String",
-    "minFreq: "Number",
-    "maxFreq: "Number
+    "minFreq": "Number",
+    "maxFreq": "Number
   },
   outputs: [
     "id"
