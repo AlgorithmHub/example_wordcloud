@@ -8,14 +8,14 @@ install.packages('wordcloud')
 ```
 ```JSON
 {
-  name: "Word Cloud Plot",
-  f: "source('main.R')",
-  inputs: {
+  "name": "Word Cloud Plot",
+  "f": "source('main.R')",
+  "inputs": {
     "txt": "String",
     "minFreq": "Number",
     "maxFreq": "Number"
   },
-  outputs: [
+  "outputs": [
     "id"
   ],
 }
