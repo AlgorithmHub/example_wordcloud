@@ -13,7 +13,7 @@ install.packages('wordcloud')
   "inputs": {
     "txt": "String",
     "minFreq": "Number",
-    "maxFreq": "Number"
+    "maxWords": "Number"
   },
   "outputs": [
     "id"
