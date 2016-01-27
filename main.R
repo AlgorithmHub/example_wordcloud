@@ -11,6 +11,6 @@ myCorpus = tm_map(myCorpus, removeWords, c(stopwords("SMART"), "thy", "thou", "t
 
 
 id <- wshow('svg')
-wordcloud(myCorpus, scale=c(4,0.5),min.freq = 5, max.words=125, random.order=TRUE, random.color=TRUE, colors=brewer.pal(8, "Pastel1"))
+wordcloud(myCorpus, scale=c(4,0.5),min.freq=minFreq, max.words=maxWords, random.order=TRUE, random.color=TRUE, colors=brewer.pal(8, "Pastel1"))
 dev.off()
 wemit('figure', id)
