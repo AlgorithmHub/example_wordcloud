@@ -5,7 +5,8 @@ Create a word cloud plot using R.
 install.packages('tm')
 install.packages('SnowballC')
 install.packages('wordcloud')
-library(rvest)
+system('apt-get install -y libxml2-dev')
+install.packages('rvest')
 ```
 ```JSON
 {
